@@ -1,0 +1,308 @@
+body{
+    background-color: white; 
+}
+
+/* Home Page */
+.header1{
+    padding: 10px 16px;
+    background: white;
+    max-width: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header2{
+    padding: 45px 16px;
+    background: white;
+    position: fixed;
+    top: 100;
+    right: 0;
+}
+
+.name{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family:'Gill Sans MT';
+    font-weight: bold;
+}
+
+.ndesc{
+    font-size: 18px;
+    text-align: left;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-family: Georgia
+}
+
+.bullet{
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+    float: left;
+}
+
+.navi{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    float: right;
+}
+
+nav li a{
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans MT';
+}
+
+a.nav:link{
+    color: black;
+}
+
+a.nav:visited{
+    color: black;
+}
+
+a.nav:hover{
+    color: turquoise;
+}
+
+a.nav:active{
+    color: turquoise;
+}
+
+.wrapper1{
+    background-color: turquoise;
+    padding-right: 450px;
+    padding-bottom: 25px;
+    float: left;
+    position: relative;
+    z-index: -1;
+    left: 0;
+}
+
+.mypic{
+    height: 800px;
+    width: 650px;
+    margin: 20px -850px 0px 180px;
+    z-index: 2;
+}
+
+.greet{
+    font-size: 100px;
+    color: black;
+    display: inline-block;
+    font-family: 'Gill Sans MT';
+    font-weight: bolder;
+    margin: 200px 0px -500px 300px;
+}
+
+.abtcont{
+    font-size: 20px;
+    color: black;
+    float: right;
+    font-family: 'Gill Sans MT';
+    margin: -530px 200px 0px 755px;
+    line-height: 1.8;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    font-size: 18px;
+    border: none;
+    margin: 30px 30px 10px 0px;
+    padding: 15px 25px;
+    display: inline-block;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: turquoise;
+}
+
+a:active{
+    color: turquoise;
+}
+
+.footer1{
+    padding: 20px 0px 10px 0px ;
+    background: white;
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    z-index: 3;
+    margin-top: 500px;
+    left: 0;
+}
+
+.botname{
+    font-family: 'Gill Sans MT';
+    font-size: 14px;
+    text-align: right;
+    bottom: 0px;
+    float: right;
+    margin-right: 10px;
+}
+
+/*Resume*/
+.bullet2{
+    height: 50px;
+    width: 50px;
+    margin-top: 140px;
+    float: left;
+    margin-left: 43%;
+}
+
+.resmtl{
+    font-family: 'Gill Sans MT';
+    font-size: 35px;
+    display: inline-block;
+    margin-top: 145px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.reshead{
+    background-color: turquoise;
+}
+
+.mypic2{
+    height: 200px;
+    width: 200px;
+    margin: 15px 0px 0px 15px;
+    vertical-align: middle;
+}
+
+.resname{
+    display: inline;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Gill Sans MT';
+    font-weight: bolder;
+}
+
+.info1{
+    float: left;
+    font-size: 18px;
+    font-family: 'Gill Sans MT';
+    margin-left: 200px;
+    margin-top: -85px;
+    text-decoration: none;
+    list-style-type: none
+}
+
+.subtl{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans MT';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+
+dl{
+    line-height: 1.8;
+    margin-left: 30px;
+    font-family: 'Gill Sans MT';
+}
+
+dt{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+dd{
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.edutls{
+    font-size: 20px;
+    font-family: 'Gill Sans MT';
+    line-height: 1.8;
+    margin-left: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: turquoise;
+    font-weight: bold;
+}
+
+.edudl{
+    line-height: 1.8;
+    margin-left: 60px;
+    font-family: 'Gill Sans MT';
+}
+
+.edudt1{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.edudt2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.edudd{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.skli{
+    font-family: 'Gill Sans MT';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skli2{
+    line-height: 1.8;
+    font-family: 'Gill Sans MT';
+    font-size: 18px;
+}
+
+.footer2{
+    padding: 20px 0px 10px 0px ;
+    background: white;
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+}
+
+
+/*Contact*/
+.slogo{
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+}
+
+.logocntr{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 20%;
+}
